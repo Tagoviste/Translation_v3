@@ -99,4 +99,3 @@ This application does **not** store your documents. Files are processed in-memor
 
 ---
 
-**Would you like me to help you create a `requirements.txt` file or a Dockerfile for this project?**
