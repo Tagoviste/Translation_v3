@@ -4,7 +4,7 @@ import base64
 from google.cloud import translate_v3 as translate
 
 # --- CONFIGURATION ---
-PROJECT_ID = "beyioku-1200-20250609123702"
+PROJECT_ID = "your-project-id"
 LOCATION = "global"
 
 def translate_document(uploaded_file, target_langs):
