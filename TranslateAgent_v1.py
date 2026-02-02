@@ -52,7 +52,7 @@ st.title("📂 Multi-Language Document Translator")
 
 # Language Selection
 available_langs = {"Spanish": "es", "French": "fr", "German": "de", "Chinese": "zh", "Japanese": "ja","Arabic": "ar","Albanian": "sq","Russian": "ru","English (United Kingdom)": "en-GB"}
-selected_names = st.multiselect("Select Target Languages", list(available_langs.keys()), default=["Spanish"])
+selected_names = st.multiselect("Select Target Languages", list(available_langs.keys()), default=["English (United Kingdom)"])
 target_codes = [available_langs[name] for name in selected_names]
 
 uploaded_file = st.file_uploader("Upload Document (PDF, DOCX, PPTX)", type=["pdf", "docx", "pptx"])
