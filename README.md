@@ -59,7 +59,6 @@ Assign a Service Account with the `Cloud Translation User` role directly to the 
 ```bash
 git clone https://github.com/your-username/gcp-translator-app.git
 cd gcp-translator-app
-pip install -r requirements.txt
 
 ```
 
@@ -68,7 +67,7 @@ pip install -r requirements.txt
 Update the following variables in the `app.py` script:
 
 * `PROJECT_ID`: Your unique GCP Project ID.
-* `LOCATION`: Typically `us-central1`.
+* `LOCATION`: Typically `global`.
 
 ### 5. Run the App
 
